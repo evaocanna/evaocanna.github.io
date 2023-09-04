@@ -105,7 +105,7 @@ Si estás aquí, seguramente te gusta escribir tus propias historias.
 ¿Estás preparado para comenzar?
 
 [[Empezar el tutorial de Twine-> Índice]]
-Ir a la <a target="_blank" href="La librer_a encantada.html"> historia. </a>
+Ir a la <a target="_blank" href="https://evaocanna.github.io//Stories/libreria_encantada.html"> historia. </a>
 
 Si quieres consultar la obra No World 4 Tomorrow en la que me inspiro, haz clik <a target="_blank" href="https://youandco2.org/NW4T/">aquí </a>.
 
@@ -133,7 +133,7 @@ Para cambiar el fondo de una palabra, una línea, un párrafo, sucede exactament
 
 `@``@background-color:red;@@` sería el código CSS que se debe utilizar.
 
-Estos cambios son cambios en línea, si quieres hacer cambios que afecten a toda la historia es mejor utilizar la <a target="_blank" href="http://twinery.org/wiki/stylesheet">hojo de estilos CSS.</a>.
+Estos cambios son cambios en línea, si quieres hacer cambios que afecten a toda la historia es mejor utilizar la <a target="_blank" href="http://twinery.org/wiki/stylesheet">hoja de estilos CSS.</a>.
 
 Los básicos de las hojas de estilo se describen en la sección llamada [[fondo|fondo]]. También puedes volver al [[Inicio| Índice]] para aprender sobre otras funciones.
 
