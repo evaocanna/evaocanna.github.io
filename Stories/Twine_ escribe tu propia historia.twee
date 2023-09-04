@@ -1,0 +1,185 @@
+:: StoryTitle
+Twine: escribe tu propia historia
+
+
+:: StoryData
+{
+  "ifid": "55DBFA2D-BA00-466C-B2FD-B2C19AA955B4",
+  "format": "Harlowe",
+  "format-version": "3.3.7",
+  "start": "Twine: Escribe tu propia aventura",
+  "zoom": 1
+}
+
+
+:: \ Índice {"position":"250,75","size":"100,100"}
+Hagamos una historia Twine. ¡Aprender lo básico es muy sencillo!
+
+De hecho, la autora de este manual ha aprendido a usar Twine para elaborarlo. De hecho, todo lo que verás a continuación está escrito a través de esta herramienta.
+
+
+[[Cómo empezar|Intro]]
+[[Cómo unir pasajes|Pasajes]]
+[[Cómo enlazar a páginas de Internet|Links]]
+[[Aprende a cambiar los colores|colores]]
+[[Añade imágenes|imágenes]]
+[[Añade audios/sonidos|audio]]
+
+
+:: ImgOnline {"position":"700,500","size":"100,100"}
+Para añadir imágenes de Internet asegurate de poder usarlas bajo una <a target="_blank" href="http://creativecommons.org"> licencia Creative Commons</a>. 
+
+Cuando encuentres la imagen que quieres usar copia el URL de la imagen (este debe terminar en .jpg, .png o .gif.
+
+Para añadir tu imagen a tu historia es tan sencillo como usar el código HTML de inserción de imágenes que es:
+`
+@@ <img src= 'imagen.lpc.png' width=200px> @@`
+
+
+Volver al [[inicio| Índice]].
+
+
+:: ImgSaved {"position":"800,300","size":"100,100"}
+//Nota: ''Esta opción solo funciona si lo publicas en tu propia web', si no, debes seguir los pasos para añadir [[imágenes de Internet|ImgOnline]].//
+
+Este paso es muy sencillo pues simplemente debes guardar las imágenes en la misma carpeta que tu página .html de Twine y después añadir en el pasaje el código:
+
+`@@<img src=imagen.jpg>@@` 
+
+Volver al [[inicio| Índice]].
+
+
+:: Intro {"position":"400,0","size":"100,100"}
+Para comenzar debes acceder a <a target="_blank" href="http://twinery.org/">Twine</a>, ya sea descargando la aplicación o a través de su web.
+
+Te voy a explicar la versión online (al entrar en su web, pincha en "Use in your browser") y se te abrirá en la misma página. 
+
+Para comenzar a escribir, pulsa en el botón "+ New". Después, elige el nombre de tu historia y pulsa "Create".
+
+Entonces se creará tu historia en el tablón de Twine. 
+
+
+[[Es el momento de comenzar a escribir|Pasajes]]
+[[Volver al inicio| Índice]]
+
+
+:: Links {"position":"550,300","size":"100,100"}
+Para crear links a páginas externas a tu historia no tienes que complicarte. Si sabes un poco de HTML, sabrás como se hace. ¡Todos los códigos de HTML son útiles en Twine!
+Creating links to external websites is pretty easy—you just use HTML coding! All HTML coding works in Twine.
+
+Usa <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">la notación que aparece en este link.</a>:
+
+Ahora puedes comenzar a complicar la creación de la historia. Puedes añadir [[imágenes]], [[audio]], cambiar el [[fondo]] o los [[colores]]. 
+
+Por supuesto, no olvides ir guardando y probando tu historia.
+
+Volver al [[inicio| Índice]].
+
+
+:: Pasajes {"position":"650,200","size":"100,100"}
+Ahora querrás enlazar los pasajes que has creado. Aquí es dondeempieza lo divertido.
+
+Haz doble clic en un pasaje para editarlo o crea uno nuevo. Los títulos son muy importantes ya que deberás usarlos luego para unir los pasajes. Asegurate de que los escribes siempre igual.
+
+Para enlazar un pasaje con otro se usan los dos corchetes duplicados <img src=https://www.alquiblaweb.com/wp-content/uploads/2017/10/%C3%ADndice.jpg width="30">.
+
+Para crear los links internos entre pasajes solo tienes que:
+<ol>
+<li>Colocar el par de corchetes y, a continuación, el título del nuevo pasaje.</li>
+<li>O si quieres que el texxto sea diferente al del título del nuevo pasaje usa: <em> "[texto | nombre del pasaje]"</em>, entre los dos corchetes.</li>
+</ol>
+
+//Nota: Si el nombre del pasaje que escribes no existe, se crea un nuevo pasaje de forma automática.//
+
+//Recuerda que debes escribir los nombres de los pasajes de la misma manera para que esto funcione.//
+
+
+Volver al [[inicio| Índice]] para seguir aprendiendo.
+
+
+:: Twine: Escribe tu propia aventura {"position":"100,200","size":"100,100"}
+Bienvenido/a a esta nueva aventura. 
+
+Si estás aquí, seguramente te gusta escribir tus propias historias. 
+
+¿Estás preparado para comenzar?
+
+[[Empezar el tutorial de Twine-> Índice]]
+Ir a la <a target="_blank" href="La librer_a encantada.html"> historia. </a>
+
+Si quieres consultar la obra No World 4 Tomorrow en la que me inspiro, haz clik <a target="_blank" href="https://youandco2.org/NW4T/">aquí </a>.
+
+
+
+:: audio {"position":"325,500","size":"100,100"}
+Añadir audios o vídeos es muy sencillo. Solo necesitas conocer los códigos HTML necesarios y buscar un audio o vídeo compatible, al igual que sucede con las imágenes.
+
+Para añadir audios o efectos de sonido el código a insertar en el pasaje es:
+
+`@@<audio src="https://.....mp3" autoplay loop>@@`
+
+y en el caso de los vídeos el  código es tan sencillo de obtener como ir a YouTube, ir al vídeo en cuestión, hacer click en Compartir y después "insertar" y copiar en código que aparece.
+
+Volver al [[inicio| Índice]].
+
+
+:: colores {"position":"575,75","size":"100,100"}
+Los colores del texto de cada pasaje se pueden cambiar de una manera muy sencilla usando código CSS. Es posible usar cualquier color. En el siguiente enlace puedes consultar el código que necesitas y los nombres de los <a target="_blank" href="https://www.w3schools.com/cssref/pr_text_color.php">colores</a>o el código <a target="_blank" href="http://www.colorpicker.com/">hexadecimal</a>.
+
+Por supuesto también se puede modificar el espaciado de las letras, la tipografía, el tamaño de la fuente y <a target="_blank" href="http://www.w3schools.com/cssref/default.asp">otros elementos.</a>:
+
+
+Para cambiar el fondo de una palabra, una línea, un párrafo, sucede exactamente lo mismo. 
+
+`@``@background-color:red;@@` sería el código CSS que se debe utilizar.
+
+Estos cambios son cambios en línea, si quieres hacer cambios que afecten a toda la historia es mejor utilizar la <a target="_blank" href="http://twinery.org/wiki/stylesheet">hojo de estilos CSS.</a>.
+
+Los básicos de las hojas de estilo se describen en la sección llamada [[fondo|fondo]]. También puedes volver al [[Inicio| Índice]] para aprender sobre otras funciones.
+
+
+:: fondo {"position":"200,350","size":"100,100"}
+Cambir los colores de fondo, las fuente y otros cambios generales puede necesitar cambios en la hoja de estilo CSS. Para cambiar el estilo en unas pocas líneas o pasajes, se puede realizar como se describe [[aquí|colores]]. Sin embargo, para cambios en toda la historia es mejor cambiar la<a target="_blank" href="http://twinery.org/wiki/stylesheet"> hoja de estilos CSS </a>como se ha comentado. 
+
+
+Volver al [[Inicio| Índice]].
+
+
+
+:: imágenes {"position":"450,425","size":"100,100"}
+Añadir imágenes puede parecer más complicado que añadir enlaces pero es mucho más fácil.
+
+A tu historia de Twine puedes añadir [[imágenes de tu ordenador|ImgSaved]] o [[imágenes de Internet|ImgOnline]] 
+
+//Nota: Recuerda escribir debajo toda la información sobre los autores de lass imágenes que vayas a utilizar.//.
+
+Volver al [[inicio| Índice]].
+
+
+:: StoryStylesheet [stylesheet]
+.enchantment-link:hover,
+tw-link:hover {
+  color:wheat;
+}
+tw-passage [tags="librería"] { text-align: center;}
+
+@import url ('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,600;1,200;1,500&display=swap');
+
+
+body, tw-story{
+  font-family:'Josefin Sans', sans-serif ;
+  font-size: 30px;
+  color:maroon;
+}
+
+tw-story {
+  background-color:lightblue;
+}
+
+a {
+ color:sienna;
+}
+a:hover {
+  color: lightgreen;
+  size: 35px;
+}
