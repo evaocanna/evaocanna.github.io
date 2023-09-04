@@ -1,0 +1,144 @@
+:: StoryTitle
+La librería encantada
+
+
+:: StoryData
+{
+  "ifid": "8677050B-BE0D-4825-BC8E-7FBAA9EED517",
+  "format": "Harlowe",
+  "format-version": "3.3.7",
+  "start": "La Librería Encantada",
+  "zoom": 1
+}
+
+
+:: \ Dentro de la librería {"position":"300,50","size":"100,100"}
+''<em>Dentro de la Librería</em>''
+
+Dentro de la librería, una campanilla suena suavemente al abrir la puerta. El lugar está lleno de estantes llenos de libros de todas las formas y tamaños. Parece que la librería se extiende infinitamente en todas direcciones. Un anciano de aspecto amable está detrás del mostrador y te mira con una sonrisa.
+
+[[Te acercas al anciano y le preguntas sobre la librería.->Conversando con el anciano]]
+
+[[Comienzas a explorar los estantes por tu cuenta.-> El libro]]
+
+<img src= 'https://www.publicdomainpictures.net/pictures/250000/velka/old-books-1524147679wnm.jpg' width= 200px>
+
+<audio src="https://tempassets.yolasite.com/resources/Crowd%20SOUND%20EFFECT%20-%20Talking%20Poeple%20Noise%20Ambience%20Chatter%20sound%20fx.mp3" autoplay>
+
+
+:: \ El libro {"position":"475,25","size":"100,100"}
+''<em>El libro</em>''
+
+Sigues paseando y ves cómo cada libro tiene un título intrigante.
+
+
+* "El Libro de los Sueños Perdidos".
+
+* "La Aventura del Tiempo".
+
+* "El Secreto del Bosque Encantado".
+
+Seleccionas un libro y sales de la librería. Cuando abres el [[libro->Felicidades]], de repente te ves transportado a un mundo totalmente nuevo y emocionante.
+
+<audio src="https://tempassets.yolasite.com/resources/Walking%20on%20wood%20sound%20effect.mp3" autoplay>
+
+
+:: \ En la calle {"position":"200,500","size":"100,100"}
+Has decidido seguir paseando sin prestar atención a la librería. Aquí termina tu aventura.
+
+[[Mejor doy la vuelta y entro a la librería-> Dentro de la librería]] 
+
+<img src= 'https://images.pexels.com/photos/17456631/pexels-photo-17456631/free-photo-of-ciudad-punto-de-referencia-espana-turismo.jpeg' width= 200px text-align= center>
+
+
+:: Conversando con el anciano {"position":"300,275","size":"100,100"}
+''<em> Conversando con el Anciano</em>''
+
+El anciano te cuenta la historia de la librería. Dice que esta librería es mágica y que los libros que contiene pueden llevarte a mundos desconocidos. También te dice que, si estás dispuesto a asumir la responsabilidad, puedes tomar un libro prestado, pero debes devolverlo en un plazo determinado o enfrentarás consecuencias.
+
+[[Aceptas tomar un libro prestado.->Elige un libro]]
+
+[[Declinas la oferta y sales de la librería.->Fin de la aventura]]
+
+
+ <background-video:url("leer libros.mp4") background-size:cover>
+
+
+:: Elige un libro {"position":"500,300","size":"100,100"}
+''<em>Elige un Libro</em>''
+
+El anciano te muestra una selección de libros. Cada uno tiene un título intrigante.
+
+
+* "El Libro de los Sueños Perdidos".
+
+* "La Aventura del Tiempo".
+
+* "El Secreto del Bosque Encantado".
+
+Seleccionas un libro y sales de la librería. Cuando abres el [[libro->Felicidades]], de repente te ves transportado a un mundo totalmente nuevo y emocionante.
+
+
+
+
+:: Felicidades [FELICIDADES] {"position":"700,100","size":"100,100"}
+''<em>¡Felicidades!</em>''
+
+Has comenzado una emocionante aventura en "La Librería Encantada". Tu destino está en tus manos mientras exploras el libro que has elegido. ¿Qué secretos descubrirás en este mundo mágico? ¡Dependerá de tus elecciones!
+
+Si deseas explorar más opciones y caminos dentro de esta historia, puedes crear un proyecto de Twine y expandir la narrativa interactiva. ¡Diviértete explorando el mundo de "La Librería Encantada"!
+
+<img src="https://img.freepik.com/foto-gratis/profundidades-misteriosa-aventura-submarina-azul-generada-ia_24640-81120.jpg" width= 900px>
+
+
+:: Fin de la aventura {"position":"550,150","size":"100,100"}
+¡VAYA! Has decidido salir de la librería, así que aquí termina tu aventura.
+
+[[Me lo he pensado mejor, quiero volver a la librería.->Conversando con el anciano]]
+
+
+:: La Librería Encantada [librería] {"position":"100,300","size":"100,100"}
+''<em>La Librería Encantada</em>''
+
+Eres un estudiante universitario aficionado a los libros. Un día, mientras caminas por la ciudad, encuentras una pequeña librería que nunca habías visto antes. El escaparate está lleno de libros antiguos y polvorientos, y una misteriosa sensación te atrae hacia la puerta.
+
+[[Entras a la librería.-> Dentro de la librería]]
+
+[[Sigues caminando sin prestarle atención.-> En la calle]]
+
+
+
+
+
+
+
+
+
+
+
+:: StoryScript [script]
+var audio = document.createElement('audio');
+audio.src= 'that-is-my-comedy-164471.mp3';
+audio.loop= true;
+audio.play ();
+
+:: StoryStylesheet [stylesheet]
+.enchantment-link:hover,
+tw-link:hover {
+  color:RosyBrown;
+}
+tw-passage [tags-="librería"] { text-align: center;}
+
+@import url ('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,600;1,200;1,500&display=swap');
+
+
+body, tw-story{
+  font-family:'Josefin Sans', sans-serif ;
+  font-size: 30px;
+  color:wheat ;
+}
+
+tw-story [tags="FELICIDADES"]{
+  background-image: "https://img.freepik.com/foto-gratis/profundidades-misteriosa-aventura-submarina-azul-generada-ia_24640-81120.jpg";
+  background-size: cover;}
+  
