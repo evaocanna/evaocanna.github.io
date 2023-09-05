@@ -13,7 +13,7 @@ La librería encantada
 
 
 :: \ Dentro de la librería {"position":"300,50","size":"100,100"}
-''<em>Dentro de la Librería</em>''
+<h1>''<em>Dentro de la Librería</em>''</h1>
 
 Dentro de la librería, una campanilla suena suavemente al abrir la puerta. El lugar está lleno de estantes llenos de libros de todas las formas y tamaños. Parece que la librería se extiende infinitamente en todas direcciones. Un anciano de aspecto amable está detrás del mostrador y te mira con una sonrisa.
 
@@ -27,15 +27,12 @@ Dentro de la librería, una campanilla suena suavemente al abrir la puerta. El l
 
 
 :: \ El libro {"position":"475,25","size":"100,100"}
-''<em>El libro</em>''
+<h1>''<em>El libro</em>''</h1>
 
 Sigues paseando y ves cómo cada libro tiene un título intrigante.
 
-
 * "El Libro de los Sueños Perdidos".
-
 * "La Aventura del Tiempo".
-
 * "El Secreto del Bosque Encantado".
 
 Seleccionas un libro y sales de la librería. Cuando abres el [[libro->Felicidades]], de repente te ves transportado a un mundo totalmente nuevo y emocionante.
@@ -52,7 +49,7 @@ Has decidido seguir paseando sin prestar atención a la librería. Aquí termina
 
 
 :: Conversando con el anciano {"position":"300,275","size":"100,100"}
-''<em> Conversando con el Anciano</em>''
+<h1>''<em> Conversando con el Anciano</em>''</h1>
 
 El anciano te cuenta la historia de la librería. Dice que esta librería es mágica y que los libros que contiene pueden llevarte a mundos desconocidos. También te dice que, si estás dispuesto a asumir la responsabilidad, puedes tomar un libro prestado, pero debes devolverlo en un plazo determinado o enfrentarás consecuencias.
 
@@ -65,15 +62,12 @@ El anciano te cuenta la historia de la librería. Dice que esta librería es má
 
 
 :: Elige un libro {"position":"500,300","size":"100,100"}
-''<em>Elige un Libro</em>''
+<h1>''<em>Elige un Libro</em>''</h1>
 
 El anciano te muestra una selección de libros. Cada uno tiene un título intrigante.
 
-
 * "El Libro de los Sueños Perdidos".
-
 * "La Aventura del Tiempo".
-
 * "El Secreto del Bosque Encantado".
 
 Seleccionas un libro y sales de la librería. Cuando abres el [[libro->Felicidades]], de repente te ves transportado a un mundo totalmente nuevo y emocionante.
@@ -82,7 +76,7 @@ Seleccionas un libro y sales de la librería. Cuando abres el [[libro->Felicidad
 
 
 :: Felicidades [FELICIDADES] {"position":"700,100","size":"100,100"}
-''<em>¡Felicidades!</em>''
+<h1>''<em>¡Felicidades!</em>''</h1>
 
 Has comenzado una emocionante aventura en "La Librería Encantada". Tu destino está en tus manos mientras exploras el libro que has elegido. ¿Qué secretos descubrirás en este mundo mágico? ¡Dependerá de tus elecciones!
 
@@ -98,7 +92,7 @@ Si deseas explorar más opciones y caminos dentro de esta historia, puedes crear
 
 
 :: La Librería Encantada [librería] {"position":"100,300","size":"100,100"}
-''<em>La Librería Encantada</em>''
+<h1>''<em>La Librería Encantada</em>''</h1>
 
 Eres un estudiante universitario aficionado a los libros. Un día, mientras caminas por la ciudad, encuentras una pequeña librería que nunca habías visto antes. El escaparate está lleno de libros antiguos y polvorientos, y una misteriosa sensación te atrae hacia la puerta.
 
@@ -141,4 +135,11 @@ body, tw-story{
 tw-story [tags="FELICIDADES"]{
   background-image: "https://img.freepik.com/foto-gratis/profundidades-misteriosa-aventura-submarina-azul-generada-ia_24640-81120.jpg";
   background-size: cover;}
+
+@import url ('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,600;1,200;1,500&display=swap');
   
+h1 {
+  font-family: "https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,600;1,200;1,500&family=Zeyada&display=swap";
+  font-size: 60px;
+  color: PaleVioletRed;
+}
